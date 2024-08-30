@@ -13,6 +13,7 @@ cask "pixelflasher" do
   end
 
   depends_on macos: ">= :high_sierra"
+  depends_on cask: "android-platform-tools"
 
   app "PixelFlasher.app"
 
